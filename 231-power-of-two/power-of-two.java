@@ -4,12 +4,9 @@ class Solution {
             return true;
         }
         
-        // Invalid cases
         if (n <= 0 || n % 2 != 0) {
             return false;
         }
-        
-        // Recursive call
         return isPowerOfTwo(n / 2);
     }
 }
